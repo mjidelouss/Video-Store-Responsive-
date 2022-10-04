@@ -121,6 +121,8 @@ p {
   font-weight: bold;
 }
 
+/* For Phones : */
+
 @media only screen and (max-width: 320px) {
   nav {
     display: block;
@@ -155,6 +157,9 @@ p {
     margin-left: -46px;
   }
 }
+
+/* For Tablets : */
+
   @media screen and (min-width: 321px) and (max-width: 768px) {
     nav {
       display: block;
